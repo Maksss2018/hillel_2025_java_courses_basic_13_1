@@ -1,6 +1,5 @@
 public class Square extends Shape {
-    Square (double width) {
-        super("Square");
+    public Square (double width) {
         this.area = Math.pow(width,2);
     }
 }

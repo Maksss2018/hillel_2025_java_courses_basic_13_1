@@ -1,6 +1,5 @@
 public class Triangle extends Shape {
-            Triangle (double base, double height) {
-                super("Triangle");
+            public Triangle (double base, double height) {
                 this.area = (base * height) / 2;
             }
 }

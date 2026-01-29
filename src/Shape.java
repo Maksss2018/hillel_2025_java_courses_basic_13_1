@@ -1,11 +1,9 @@
 public class Shape {
-    protected String name;
+    //protected String name;
     protected double area;
-    Shape(String shapeName) {
-        this.name = shapeName;
-    }
+
     public void draw() {
-        IO.println(String.format("Drawing Shape %s", name));
+        IO.println(String.format("Drawing Shape "));
     }
     public double area() {
         return this.area;

@@ -1,6 +1,5 @@
 public class Circle extends Shape {
-       Circle ( double radius){
-           super("Circle");
+       public Circle ( double radius){
         this.area =  Math.PI * Math.pow(radius, 2);
-       };
+       }
 }
