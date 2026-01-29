@@ -1,9 +1,9 @@
-void main() {
-    Shape square = new Square(5);
-    Shape triangle = new Triangle(5,6);
-    Shape circle = new Circle(5);
-    Shape[] figureArray = { square, triangle, circle };
-    double sumOfAllAreas = 0.0;
+private final Shape square = new Square(5);
+private final Shape triangle = new Triangle(5,6);
+private final Shape circle = new Circle(5);
+private final Shape[] figureArray = { square, triangle, circle };
+private double sumOfAllAreas = 0.0;
+public void main() {
     for (Shape s : figureArray) {
         sumOfAllAreas += s.area();
         IO.println("=====================================");
