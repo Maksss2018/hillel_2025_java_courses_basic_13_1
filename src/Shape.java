@@ -1,13 +1,13 @@
 public class Shape {
-    private  static String name;
-    private  static double area;
-    public Shape(String name) {
-        this.name = name;
+    protected String name;
+    protected double area;
+    Shape(String shapeName) {
+        this.name = shapeName;
     }
     public void draw() {
         IO.println(String.format("Drawing Shape %s", name));
     }
     public double area() {
-        return area;
+        return this.area;
     }
 }
