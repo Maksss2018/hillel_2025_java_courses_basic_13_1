@@ -7,7 +7,7 @@ void main() {
     for (Shape s : figureArray) {
         sumOfAllAreas += s.area();
         IO.println("=====================================");
-        s.draw();
+        s.draw(s);
       IO.println("area: "+s.area());
         IO.println("=====================================");
     }
